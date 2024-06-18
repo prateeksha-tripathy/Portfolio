@@ -3,7 +3,6 @@
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
-import { div } from "three/examples/jsm/nodes/Nodes.js";
 import { useState } from "react";
 import animationData from '@/data/confetti.json'
 import Lottie from "react-lottie";
@@ -20,7 +19,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid md:auto-rows-[18rem] grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto ",
+        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto",
         className
       )}
     >
@@ -69,13 +68,13 @@ export const BentoGridItem = ({
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
-      <div className={`${id === 6 && 'flex justify-center'} h-full`}>
+      <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
             <img
               src={img}
               alt={img}
-              className={cn(imgClassName, "object-cover,object-center")}
+              className={cn(imgClassName, "object-cover object-center ")}
             />
           )}
         </div>
@@ -106,10 +105,10 @@ export const BentoGridItem = ({
             "group-hover/ bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
           )}
         >
-          <div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10">
+          <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
             {description}
           </div>
-          <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
+          <div className="font-sans text-lg lg:text-3xl max-w-96 font-bold z-10">
             {title}
           </div>
 
@@ -143,8 +142,8 @@ export const BentoGridItem = ({
           )}
 
           {id === 6 && (
-            <div className="mt5 relative">
-              <div className={`absolute -bottom-5 right-0`}>
+            <div className="mt-5 relative">
+              <div className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"}`}>
                 <Lottie options={{
                   loop: copied,
                   autoplay: copied,
