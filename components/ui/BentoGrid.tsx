@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
 import { useState } from "react";
-import animationData from '@/data/confetti.json'
+import animationData from "@/data/confetti.json";
 import Lottie from "react-lottie";
 import MagicButton from "../MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
@@ -47,14 +47,13 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-
-  const[copied,setcopied] = useState(false);
+  const [copied, setcopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('prateekshatripathy102003@gmail.com')
+    navigator.clipboard.writeText("prateekshatripathy102003@gmail.com");
 
     setcopied(true);
-  }
+  };
 
   return (
     <div
@@ -143,19 +142,25 @@ export const BentoGridItem = ({
 
           {id === 6 && (
             <div className="mt-5 relative">
-              <div className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"}`}>
-                <Lottie options={{
-                  loop: copied,
-                  autoplay: copied,
-                  animationData,
-                  rendererSettings:{
-                    preserveAspectRatio: 'xMidYMid slice',
-                  }
-                }} />
+              <div
+                className={`absolute -bottom-5 right-0 ${
+                  copied ? "block" : "block"
+                }`}
+              >
+                <Lottie
+                  options={{
+                    loop: copied,
+                    autoplay: copied,
+                    animationData,
+                    rendererSettings: {
+                      preserveAspectRatio: "xMidYMid slice",
+                    },
+                  }}
+                />
               </div>
 
-              <MagicButton 
-                title={copied?'Email copied':'Copy my email'}
+              <MagicButton
+                title={copied ? "Email copied" : "Copy my email"}
                 icon={<IoCopyOutline />}
                 position="left"
                 otherClasses="`bg-[#161a31]`"
