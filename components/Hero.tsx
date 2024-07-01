@@ -34,11 +34,12 @@ const hero = () => {
           Hi, I&apos;m Prateeksha Tripathy, a Full Stack Developer based in Bangalore
         </p>
 
-        <a href="/about">
+        <a href='#projects'>
           <ShimmerButton 
             title="Show my work"
             icon={< FaLocationArrow />}
             position='right'
+
           />
         </a>
       </div>

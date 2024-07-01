@@ -1,7 +1,8 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    // { name: "Testimonials", link: "#testimonials" },
+    { name: "Approach", link: "#approach" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -73,7 +74,7 @@ export const navItems = [
     {
       id: 1,
       title: "Converstic : A chatting Application",
-      des: "A dynamic chat application revolutionizing online communication! Built using the powerful MERN stack, Converstic boasts seamless signup and login functionalities, empowering users to connect effortlessly. With the integration of socket connections, real-time chatting becomes a breeze, enhancing user experience and fostering meaningful interactions.",
+      des: "A real time chat application revolutionizing online communication! Built using the powerful MERN stack, Converstic boasts seamless signup and login functionalities, empowering users to connect effortlessly. With the integration of socket connections, real-time chatting becomes a breeze, enhancing user experience and fostering meaningful interactions.",
       img: "/bubble.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "https://github.com/prateeksha-tripathy/Converstic",
@@ -89,7 +90,7 @@ export const navItems = [
     {
       id: 3,
       title: "MindStars : A Blog Application",
-      des: "an innovative full stack blog application built with the MERN stack, designed to enhance user engagement and streamline content management. MindStars features intuitive signup and signin processes, a comprehensive admin dashboard, and robust capabilities for creating, updating, and deleting blog posts. Users can interact with posts through reactions, fostering a dynamic and interactive community. ",
+      des: "an innovative full stack blog application (akin notion) built with the MERN stack, designed to enhance user engagement and streamline content management. MindStars features intuitive signup and signin processes, a comprehensive admin dashboard, and robust capabilities for creating, updating, and deleting blog posts. Users can interact with posts through reactions, fostering a dynamic and interactive community.",
       img: "/post.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "https://github.com/prateeksha-tripathy/MindStars",
@@ -104,38 +105,38 @@ export const navItems = [
     },
   ];
   
-  export const testimonials = [
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-  ];
+  // export const testimonials = [
+  //   {
+  //     quote:
+  //       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+  //     name: "Michael Johnson",
+  //     title: "Director of AlphaStream Technologies",
+  //   },
+  //   {
+  //     quote:
+  //       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+  //     name: "Michael Johnson",
+  //     title: "Director of AlphaStream Technologies",
+  //   },
+  //   {
+  //     quote:
+  //       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+  //     name: "Michael Johnson",
+  //     title: "Director of AlphaStream Technologies",
+  //   },
+  //   {
+  //     quote:
+  //       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+  //     name: "Michael Johnson",
+  //     title: "Director of AlphaStream Technologies",
+  //   },
+  //   {
+  //     quote:
+  //       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+  //     name: "Michael Johnson",
+  //     title: "Director of AlphaStream Technologies",
+  //   },
+  // ];
   
   export const companies = [
     {
