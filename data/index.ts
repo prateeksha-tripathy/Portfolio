@@ -74,7 +74,7 @@ export const navItems = [
       id: 1,
       title: "Converstic : A chatting Application",
       des: "A dynamic chat application revolutionizing online communication! Built using the powerful MERN stack, Converstic boasts seamless signup and login functionalities, empowering users to connect effortlessly. With the integration of socket connections, real-time chatting becomes a breeze, enhancing user experience and fostering meaningful interactions.",
-      img: "/p1.svg",
+      img: "/bubble.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "https://github.com/prateeksha-tripathy/Converstic",
     },
@@ -82,7 +82,7 @@ export const navItems = [
       id: 2,
       title: "PriceWise : A web scraping app",
       des: " A sophisticated web scraping application designed to enhance online shopping by providing comprehensive price tracking and analysis. PriceWise scrapes prices from leading e-commerce platforms like Amazon, offering detailed insights into price variations, including the highest, lowest, average, and current prices. In addition to tracking product prices, PriceWise allows users to monitor their ordered products and receive timely email notifications for price alerts, ensuring they secure the best deals. This powerful tool empowers consumers with data-driven insights for smarter purchasing decisions and optimized shopping experiences.",
-      img: "/p2.svg",
+      img: "/PriceWise.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       link: "https://github.com/prateeksha-tripathy/priceWise",
     },
@@ -90,7 +90,7 @@ export const navItems = [
       id: 3,
       title: "MindStars : A Blog Application",
       des: "an innovative full stack blog application built with the MERN stack, designed to enhance user engagement and streamline content management. MindStars features intuitive signup and signin processes, a comprehensive admin dashboard, and robust capabilities for creating, updating, and deleting blog posts. Users can interact with posts through reactions, fostering a dynamic and interactive community. ",
-      img: "/p3.svg",
+      img: "/post.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "https://github.com/prateeksha-tripathy/MindStars",
     },
@@ -98,7 +98,7 @@ export const navItems = [
       id: 4,
       title: "TextUtils : An AI Text enhancer app",
       des: "TextUtils, a React application with AI integration designed to enhance text processing. This project includes features such as text conversion, clipboard management, AI-based text generation, grammar and punctuation checks, and read time estimation. Successfully integrated AI functionalities to improve user experience.",
-      img: "/p4.svg",
+      img: "/pecil.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://github.com/prateeksha-tripathy/TextUtils",
     },
@@ -205,13 +205,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/prateeksha-tripathy"
     },
     {
       id: 2,
       img: "/twit.svg",
+      link:"https://x.com/Prateeksha1073"
     },
     {
       id: 3,
       img: "/link.svg",
+      link:"https://www.linkedin.com/in/prateeksha-tripathy-53b85a248/"
     },
   ];
